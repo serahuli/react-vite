@@ -14,7 +14,21 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "types": [
+      "node"
+    ],
+    "baseUrl": "./",
+    "paths": {
+	  // 根据别名配置相关路径
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@container/*": ["./src/container/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@images/*": ["./src/images/*"],
+      "@style/*": ["./src/style/*"],
+      "@utils/*": ["./src/utils/*"]
+    }
   },
   "include": ["./src"]
 }
