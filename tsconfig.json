@@ -15,12 +15,10 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": [
-      "node"
-    ],
+    "types": ["node"],
     "baseUrl": "./",
     "paths": {
-	  // 根据别名配置相关路径
+      // 根据别名配置相关路径
       "@/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
       "@container/*": ["./src/container/*"],
