@@ -23,6 +23,7 @@
 │   ├── types
 │   │   └── vite-env.d.ts
 │   └── utils
+│       └── random.ts
 ├── tsconfig.json
 ├── vite.config.ts
 └── yarn.lock
