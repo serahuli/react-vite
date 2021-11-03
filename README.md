@@ -63,10 +63,10 @@ export default zh;
 import { useTranslation } from 'react-i18next';
 
 function Login() {
-	// 使用
-	const { t } = useTranslation();
+    // 使用
+    const { t } = useTranslation();
 
-	return <h1>{t('login.login')}</h1>;
+    return <h1>{t('login.login')}</h1>;
 }
 
 export default Login;
@@ -79,17 +79,17 @@ import React, { Component } from 'react';
 import { Translation } from 'react-i18next'; // 导入
 
 class Login extends Component<{}, {}> {
-	render() {
-		return (
-			<Translation>
-				{(t) => (
-					<div className={styles.test}>
-						<div>{t('login.login')}</div>
-					</div>
-				)}
-			</Translation>
-		);
-	}
+    render() {
+        return (
+            <Translation>
+                {t => (
+                    <div className={styles.test}>
+                        <div>{t('login.login')}</div>
+                    </div>
+                )}
+            </Translation>
+        );
+    }
 }
 
 export default Login;
@@ -105,4 +105,4 @@ i18n.changeLanguage('zh');
 
 使用 `css in js`: `strled-components`
 
-[styled-components官方文档](https://styled-components.com/)
+[styled-components 官方文档](https://styled-components.com/)

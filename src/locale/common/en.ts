@@ -1,5 +1,5 @@
 const en = {
-  success: 'success'
-}
+    success: 'success'
+};
 
 export default en;

@@ -1,5 +1,5 @@
 const zh = {
-  success: '成功'
-}
+    success: '成功'
+};
 
 export default zh;

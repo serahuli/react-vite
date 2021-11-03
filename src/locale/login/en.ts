@@ -1,5 +1,5 @@
 const en = {
-  login: 'login'
-}
+    login: 'login'
+};
 
 export default en;
