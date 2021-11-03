@@ -26,7 +26,7 @@ module.exports = {
         sourceType: 'module',
         ecmaVersion: 6
     },
-    plugins: ['@typescript-eslint', "react-hooks"],
+    plugins: ['@typescript-eslint', 'react-hooks'],
     rules: {
         'react/react-in-jsx-scope': 0,
         'no-await-in-loop': 2,
@@ -50,7 +50,7 @@ module.exports = {
         'no-const-assign': 2,
         'no-duplicate-imports': 2,
         'no-var': 2,
-				"react-hooks/rules-of-hooks": "error",
-    		"react-hooks/exhaustive-deps": "warn"
+        'react-hooks/rules-of-hooks': 'error',
+        'react-hooks/exhaustive-deps': 'warn'
     }
 };
