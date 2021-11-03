@@ -37,7 +37,7 @@ function Home() {
             <button onClick={() => changeLang('en')}>英文</button>
             <button onClick={() => changeRouter(LOGIN)}>个人</button>
             <button onClick={() => changeRouter(PROFILE)}>登录</button>
-            <Button type='primary'>测试</Button>
+            <Button type="primary">测试</Button>
         </div>
     );
 }

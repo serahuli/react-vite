@@ -1,9 +1,9 @@
-import test from "../type/test";
+import test from '../type/test';
 
 export function changeText(text: string) {
-  return { type: test.CHANGE_TEXT, text}
+    return { type: test.CHANGE_TEXT, text };
 }
 
 export function changeNumber(number: number) {
-  return { type: test.CHANGE_NUMBER, number}
+    return { type: test.CHANGE_NUMBER, number };
 }
