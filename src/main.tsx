@@ -10,15 +10,15 @@ import '@/locale/index';
 import { Globalstyle } from '@styles/globalStyle';
 
 ReactDOM.render(
-<Provider store={store}>
+  <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
-        <React.StrictMode>
-            <BrowserRouter>
-                <Index />
-                <Globalstyle />
-            </BrowserRouter>
-        </React.StrictMode>
+      <React.StrictMode>
+        <BrowserRouter>
+          <Index />
+          <Globalstyle />
+        </BrowserRouter>
+      </React.StrictMode>
     </PersistGate>
-</Provider>,
-document.getElementById('root')
+  </Provider>,
+  document.getElementById('root')
 );
