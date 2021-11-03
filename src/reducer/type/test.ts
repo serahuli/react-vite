@@ -1,0 +1,4 @@
+export default {
+  CHANGE_TEXT: 'CHANGE_TEXT',
+  CHANGE_NUMBER: 'CHANGE_NUMBER'
+}

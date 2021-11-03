@@ -30,7 +30,7 @@ module.exports = {
     rules: {
         'react/react-in-jsx-scope': 0,
         'no-await-in-loop': 2,
-        'no-duplicate-case': 2,
+        'no-duplicate-case': 1,
         'no-ex-assign': 2,
         'no-func-assign': 2,
         'no-obj-calls': 2,
@@ -49,6 +49,7 @@ module.exports = {
         'no-duplicate-imports': 2,
         'no-var': 2,
         'react-hooks/rules-of-hooks': 'error',
-        'react-hooks/exhaustive-deps': 'warn'
+        'react-hooks/exhaustive-deps': 'warn',
+        "indent": ["error", 2]
     }
 };

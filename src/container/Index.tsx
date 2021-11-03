@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Redirect, Route, Switch, useHistory } from 'react-router-dom';
+import { Button } from 'antd';
 import routers, { IRouter } from '@/routers/routers';
 import { LOGIN, PROFILE } from '@/routers/routerPath';
 
@@ -18,7 +19,7 @@ function Home() {
     return (
         <div className="App">
             {a}
-            {t('login.login')}
+            {t('login.login')}999
             <Switch>
                 {routers.map((router: IRouter) => {
                     return (
@@ -36,6 +37,7 @@ function Home() {
             <button onClick={() => changeLang('en')}>英文</button>
             <button onClick={() => changeRouter(LOGIN)}>个人</button>
             <button onClick={() => changeRouter(PROFILE)}>登录</button>
+            <Button type='primary'>测试</Button>
         </div>
     );
 }
