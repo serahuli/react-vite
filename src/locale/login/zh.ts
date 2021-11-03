@@ -1,5 +1,5 @@
 const zh = {
-    login: '登录'
+  login: '登录'
 };
 
 export default zh;

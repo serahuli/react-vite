@@ -1,4 +1,4 @@
 export interface TestStore {
-    testStr: string;
-    testNumber: number;
+  testStr: string;
+  testNumber: number;
 }
