@@ -7,7 +7,6 @@
         "skipLibCheck": false,
         "esModuleInterop": false,
         "allowSyntheticDefaultImports": true,
-        "strict": true,
         "forceConsistentCasingInFileNames": true,
         "module": "ESNext",
         "moduleResolution": "Node",
@@ -24,7 +23,7 @@
             "@container/*": ["./src/container/*"],
             "@hooks/*": ["./src/hooks/*"],
             "@images/*": ["./src/images/*"],
-            "@style/*": ["./src/style/*"],
+            "@styles/*": ["src/styles/*"],
             "@utils/*": ["./src/utils/*"]
         }
     },

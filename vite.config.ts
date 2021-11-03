@@ -12,7 +12,7 @@ export default defineConfig({
             '@container': resolve(__dirname, 'src/container'),
             '@hooks': resolve(__dirname, 'src/hooks'),
             '@images': resolve(__dirname, 'src/images'),
-            '@style': resolve(__dirname, 'src/style'),
+            '@styles': resolve(__dirname, 'src/styles'),
             '@utils': resolve(__dirname, 'src/utils')
         },
         extensions: ['.js', '.ts', '.jsx', '.tsx', '.json']
